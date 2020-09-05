@@ -9,7 +9,7 @@ RUN mkdir /code
 
 # build functionsimsearch
 RUN cd /code && \
-    git clone https://github.com/wwkenwong/functionsimsearch.git && \
+    git clone https://github.com/0xdarkfloyd/functionsimsearch.git && \
     cd functionsimsearch && \
     chmod +x ./build_dependencies.sh && \
     ./build_dependencies.sh && \
